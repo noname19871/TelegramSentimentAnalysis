@@ -58,6 +58,21 @@ class DB:
         command = "SELECT tonal FROM {}".format(self.tablename)
         return c.execute(command)
 
+    def user_tonal(self, username):
+        c = self.table.cursor()
+        command = "SELECT tonal FROM {} WHERE username='{}'".format(self.tablename, username)
+        return c.execute(command)
+
+
+def average_tonal(tonals):
+    records = []
+    tonal = 0
+    for str in tonals
+        records.append(str)
+    for record in records:
+        for t in record:
+            tonal += t
+    return tonal / len(records)
 
 class DBThread(threading.Thread):
     def __init__(self, work_queue, filename, bot):
@@ -81,13 +96,8 @@ class DBThread(threading.Thread):
             self.db.insert(body)
         if command == "delete":
             self.db.delete(body)
+        if command == "user_tonal":
+            bot.send_message(body, average_tonal(self.db.user_tonal()))
         if command == "total_tonal":
-            records = []
-            tonal = 0
-            for str in self.db.total_tonal():
-                records.append(str)
-            for r in records:
-                for e in r:
-                    tonal += e
-            self.bot.send_message(body, tonal / len(records))
+            bot.send_message(body, average_tonal(self.db.total_tonal()))
         self.db.commit()
