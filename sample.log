@@ -1,0 +1,37 @@
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (720, 289074157, 289074157, 'mor1ins', 1522516297, 'привет', 0.4861111111111111)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (722, 289074157, 289074157, 'mor1ins', 1522516307, 'алан пидор', 0.4861111111111111)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (724, 289074157, 289074157, 'mor1ins', 1522516315, 'мне так мама сказала', 0.4910515020505091)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (726, 289074157, 289074157, 'mor1ins', 1522516320, 'все очень плохо', 0.3028398499472103)

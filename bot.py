@@ -1,10 +1,15 @@
 import telebot
 
+
 import Bayes
 import linear
 
-token = '407983248:AAGoNA--4lrX7FuflwW47Q7Z1Kdh83CMGBo'
+from database import DBThread
+from Bayes import predict
+from queue import Queue
 
+
+token = '481955063:AAGwRfDppnW9FH2LeTUKb6OS9RquTbd3ijs'
 bot = telebot.TeleBot(token)
 
 
@@ -15,9 +20,20 @@ def predict(msg):
         return 0.5
 
 
+work_queue = Queue()
+db = DBThread(work_queue, "messages.db")
+db.start()
+
+
 @bot.message_handler(content_types=["text"])
 def repeat_all_messages(message):
+
     bot.send_message(message.chat.id, predict([message.text]))
+    record = (message.message_id, message.from_user.id, message.chat.id, message.from_user.username,
+              message.date, message.text, predict([message.text]))
+    work_queue.put(("insert", record,))
 
 
-bot.polling(none_stop=True)
+
+if __name__ == "__main__":
+    bot.polling(none_stop=True)
