@@ -35,3 +35,757 @@ INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 
 INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
 INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
 INFO:root:db start with insert (726, 289074157, 289074157, 'mor1ins', 1522516320, 'все очень плохо', 0.3028398499472103)
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (728, 289074157, 289074157, 'mor1ins', 1522519781, 'скучный', 0.25721083121183613)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (730, 289074157, 289074157, 'mor1ins', 1522519789, 'оч скучный', 0.25721083121183613)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (732, 289074157, 289074157, 'mor1ins', 1522519798, 'очень скучный', 0.2700163275456857)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+ERROR:TeleBot:TypeError occurred, args=("'int' object is not subscriptable",)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/TelegramSentimentAnalysis/bot.py", line 15, in insert_message
+    bot.send_message(message.chat.id, str(predict([message.text])[0][1]))
+TypeError: 'int' object is not subscriptable
+
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (735, 289074157, 289074157, 'mor1ins', 1522519909, 'хуйло', 0.4861111111111111)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (737, 289074157, 289074157, 'mor1ins', 1522519917, 'хуйня', 0.4861111111111111)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (739, 289074157, 289074157, 'mor1ins', 1522519923, 'молодец', 0.4861111111111111)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (741, 289074157, 289074157, 'mor1ins', 1522519932, 'волшебный', 0.4861111111111111)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (743, 289074157, 289074157, 'mor1ins', 1522519939, 'великолепный', 0.4861111111111111)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (745, 289074157, 289074157, 'mor1ins', 1522519947, 'потрясающий', 0.634335897330781)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (747, 289074157, 289074157, 'mor1ins', 1522519954, 'пустой', 0.34512831016913437)
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+ERROR:TeleBot:ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:\n[b\'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}\']',)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 56, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 75, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+
+ERROR:TeleBot:A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+ERROR:TeleBot:ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:\n[b\'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}\']',)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 56, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 75, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+
+ERROR:TeleBot:A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+ERROR:TeleBot:ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:\n[b\'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}\']',)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 56, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 75, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+
+ERROR:TeleBot:A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+ERROR:TeleBot:TypeError occurred, args=("'int' object is not subscriptable",)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/TelegramSentimentAnalysis/bot.py", line 21, in insert_message
+    bot.send_message(message.chat.id, str(predict([message.text])[0][1]))
+TypeError: 'int' object is not subscriptable
+
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+ERROR:TeleBot:TypeError occurred, args=("'int' object is not subscriptable",)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/TelegramSentimentAnalysis/bot.py", line 21, in insert_message
+    bot.send_message(message.chat.id, str(predict([message.text])[0][1]))
+TypeError: 'int' object is not subscriptable
+
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+ERROR:TeleBot:TypeError occurred, args=("'int' object is not subscriptable",)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/TelegramSentimentAnalysis/bot.py", line 22, in insert_message
+    message.date, message.text, predict([message.text])[0][1])
+TypeError: 'int' object is not subscriptable
+
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+ERROR:TeleBot:TypeError occurred, args=("'int' object is not subscriptable",)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/TelegramSentimentAnalysis/bot.py", line 22, in insert_message
+    message.date, message.text, predict([message.text])[0][1])
+TypeError: 'int' object is not subscriptable
+
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+ERROR:TeleBot:TypeError occurred, args=("'int' object is not subscriptable",)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/TelegramSentimentAnalysis/bot.py", line 22, in insert_message
+    message.date, message.text, (predict([message.text]))[0][1])
+TypeError: 'int' object is not subscriptable
+
+ERROR:TeleBot:TypeError occurred, args=("'int' object is not subscriptable",)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/TelegramSentimentAnalysis/bot.py", line 22, in insert_message
+    message.date, message.text, (predict([message.text]))[0][1])
+TypeError: 'int' object is not subscriptable
+
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (755, 289074157, 289074157, 'mor1ins', 1522520339, 'greger', 0)
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (756, 289074157, 289074157, 'mor1ins', 1522520342, 'nytrhethet', 0)
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (759, 289074157, 289074157, 'mor1ins', 1522520501, '/statictics', 0)
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:<sqlite3.Cursor object at 0x7fefb0585e30>
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+ERROR:TeleBot:ReadTimeout occurred, args=(ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)",),)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.5/ssl.py", line 929, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 791, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 575, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 54, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+INFO:root:db start
+ERROR:TeleBot:ReadTimeout occurred, args=(ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)",),)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.5/ssl.py", line 929, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 791, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 575, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 54, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+ERROR:TeleBot:ReadTimeout occurred, args=(ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)",),)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.5/ssl.py", line 929, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 791, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 575, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 54, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4910515020505091,)
+INFO:root:(0.3028398499472103,)
+INFO:root:(0.25721083121183613,)
+INFO:root:(0.25721083121183613,)
+INFO:root:(0.2700163275456857,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.634335897330781,)
+INFO:root:(0.34512831016913437,)
+INFO:root:(0,)
+INFO:root:(0,)
+INFO:root:(0,)
+INFO:root:db start
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4910515020505091,)
+INFO:root:(0.3028398499472103,)
+INFO:root:(0.25721083121183613,)
+INFO:root:(0.25721083121183613,)
+INFO:root:(0.2700163275456857,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.4861111111111111,)
+INFO:root:(0.634335897330781,)
+INFO:root:(0.34512831016913437,)
+INFO:root:(0,)
+INFO:root:(0,)
+INFO:root:(0,)
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:0.4861111111111111
+INFO:root:0.4861111111111111
+INFO:root:0.4910515020505091
+INFO:root:0.3028398499472103
+INFO:root:0.25721083121183613
+INFO:root:0.25721083121183613
+INFO:root:0.2700163275456857
+INFO:root:0.4861111111111111
+INFO:root:0.4861111111111111
+INFO:root:0.4861111111111111
+INFO:root:0.4861111111111111
+INFO:root:0.4861111111111111
+INFO:root:0.634335897330781
+INFO:root:0.34512831016913437
+INFO:root:0
+INFO:root:0
+INFO:root:0
+INFO:root:db start
+INFO:root:db start
+ERROR:TeleBot:ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:\n[b\'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}\']',)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 56, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 75, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+
+ERROR:TeleBot:A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+ERROR:TeleBot:ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:\n[b\'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}\']',)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 56, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 75, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+
+INFO:root:db start
+ERROR:TeleBot:ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:\n[b\'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}\']',)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 56, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 75, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+
+INFO:root:db start with total_tonal 289074157
+ERROR:TeleBot:ReadTimeout occurred, args=(ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)",),)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.5/ssl.py", line 929, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 791, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 575, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 54, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+ERROR:TeleBot:ReadTimeout occurred, args=(ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)",),)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.5/ssl.py", line 929, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 791, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 575, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 54, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+INFO:root:db start
+ERROR:TeleBot:ConnectionError occurred, args=(MaxRetryError("HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot481955063:AAGwRfDppnW9FH2LeTUKb6OS9RquTbd3ijs/getUpdates?timeout=20&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc0017046d8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))",),)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fc0017046d8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot481955063:AAGwRfDppnW9FH2LeTUKb6OS9RquTbd3ijs/getUpdates?timeout=20&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc0017046d8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 54, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot481955063:AAGwRfDppnW9FH2LeTUKb6OS9RquTbd3ijs/getUpdates?timeout=20&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc0017046d8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157

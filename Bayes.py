@@ -39,7 +39,7 @@ def predict(in_data):
             tmp_data.append(text_cleaner(sentence))
 
     if len(tmp_data) == 0:
-        return [0]
+        return [[0, 0]]
     new_data = word_weights.transform(tmp_data)
     predicted = clf.predict_proba(new_data)
     return predicted

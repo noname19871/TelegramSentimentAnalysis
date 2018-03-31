@@ -52,18 +52,16 @@ class DB:
     def close(self):
         self.table.close()
 
-    # def search_by_id(self, id):
-    #     conn = lite.connect(self.table)
-    #     with conn:
-    #         command = "select * from {} where id={}".format(self.table, id)
-    #         conn.execute(command)
-    #         conn.commit()
-    #         conn.close()ц
+    def total_tonal(self):
+        c = self.table.cursor()
+        command = "SELECT tonal FROM {}".format(self.tablename)
+        return c.execute(command)
 
 
 class DBThread(threading.Thread):
-    def __init__(self, work_queue, filename):
+    def __init__(self, work_queue, filename, bot):
         threading.Thread.__init__(self)
+        self.bot = bot
         self.work_queue = work_queue
         logging.basicConfig(filename="sample.log", level=logging.INFO)
         self.filename = filename
@@ -80,6 +78,15 @@ class DBThread(threading.Thread):
         if command == "insert":
             self.db.insert(body)
         if command == "delete":
-            self.sdb.delete(body)
+            self.db.delete(body)
+        if command == "total_tonal":
+            records = []
+            tonal = 0
+            for str in self.db.total_tonal():
+                records.append(str)
+            for r in records:
+                for e in r:
+                    tonal += e
+            self.bot.send_message(body, tonal / len(records))
 
-        self.db.commit()
+            self.db.commit()
