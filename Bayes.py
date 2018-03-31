@@ -5,8 +5,8 @@ from sklearn.naive_bayes import MultinomialNB
 from cleaner import text_cleaner
 import pandas as pd
 
-model_filename = 'model/classifier.joblib.pkl'
-features_filename = 'model/features.joblib.pkl'
+model_filename = 'model/classifier-bayes.joblib.pkl'
+features_filename = 'model/features-bayes.joblib.pkl'
 
 
 def train(train_csv):
@@ -14,7 +14,7 @@ def train(train_csv):
     data = pd.read_csv(train_csv, index_col=0).dropna()
 
     # высчитываем веса слов по формуле TF_IDF
-    word_weights = TfidfVectorizer(min_df = 2, max_df = 0.8, analyzer="word", ngram_range=[1,3])
+    word_weights = TfidfVectorizer(min_df=2, max_df=0.6, analyzer="word", ngram_range=[1, 3])
 
     X = word_weights.fit_transform(data['text'])
 
@@ -22,10 +22,10 @@ def train(train_csv):
 
     # наивный байес
     clf = MultinomialNB()
-    clf.fit(X,y)
+    clf.fit(X, y)
 
     joblib.dump(clf, model_filename, compress=3)
-    joblib.dump(word_weights,features_filename,compress=3)
+    joblib.dump(word_weights, features_filename, compress=3)
 
 
 def predict(in_data):
