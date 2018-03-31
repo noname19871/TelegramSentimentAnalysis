@@ -31,6 +31,7 @@ class DB:
     def insert(self, record):
         c = self.table.cursor()
         command = "insert into {} values {}".format(self.tablename, record)
+        logging.info(command)
         c.execute(command)
 
     # record - строка вида (id, id_chat, name, date, text, tonal)
@@ -76,6 +77,7 @@ class DBThread(threading.Thread):
 
     def execute(self, command, body):
         if command == "insert":
+            logging.info("db {} {}".format(command, body))
             self.db.insert(body)
         if command == "delete":
             self.db.delete(body)
@@ -88,5 +90,4 @@ class DBThread(threading.Thread):
                 for e in r:
                     tonal += e
             self.bot.send_message(body, tonal / len(records))
-
-            self.db.commit()
+        self.db.commit()

@@ -31,9 +31,9 @@ def get_stat(message):
 
 @bot.message_handler(content_types=["text"])
 def insert_message(message):
-    print((predict([message.text])))
     record = (message.message_id, message.from_user.id, message.chat.id, message.from_user.username,
               message.date, message.text, str((predict([message.text]))))
+    print(record)
     work_queue.put(("insert", record,))
 
 
