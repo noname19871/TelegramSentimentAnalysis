@@ -10,7 +10,7 @@ data = []
 
 @bot.message_handler(content_types=["text"])
 def repeat_all_messages(message):
-    bot.send_message(message.chat.id,str(predict([message.text])[0][0]))
+    bot.send_message(message.chat.id, str(predict([message.text])[0][1]))
 
 
 bot.polling(none_stop=True)

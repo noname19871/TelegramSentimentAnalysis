@@ -31,10 +31,16 @@ def train(train_csv):
 def predict(in_data):
     word_weights = joblib.load(features_filename)
     clf = joblib.load(model_filename)
-    for sentence in in_data:
-        sentence = text_cleaner(sentence)
 
-    new_data = word_weights.transform(in_data)
+    tmp_data = []
+    for sentence in in_data:
+        new_sentence = text_cleaner(sentence)
+        if new_sentence != '':
+            tmp_data.append(text_cleaner(sentence))
+
+    if len(tmp_data) == 0:
+        return [0]
+    new_data = word_weights.transform(tmp_data)
     predicted = clf.predict_proba(new_data)
     return predicted
 

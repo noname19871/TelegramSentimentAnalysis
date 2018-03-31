@@ -1,5 +1,6 @@
 import pandas as pd
 import pymorphy2
+import snowballstemmer
 
 
 def text_cleaner(text):
@@ -14,10 +15,12 @@ def text_cleaner(text):
             cleaned_text += char
 
     morph = pymorphy2.MorphAnalyzer()
+    # stemmer = snowballstemmer.stemmer('russian');
 
     # лемматизируем
     result = []
     for word in cleaned_text.split():
+        # result.append(stemmer.stemWord(word))
         result.append(morph.parse(word)[0].normal_form)
     return ' '.join(result)
 
