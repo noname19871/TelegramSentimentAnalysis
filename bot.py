@@ -5,7 +5,6 @@ import linear
 
 from database import DBThread
 from queue import Queue
-from TwitterSearch import *
 from twiSearch import *
 
 ts = TwitterSearch(
@@ -17,7 +16,7 @@ ts = TwitterSearch(
 
 twi = twiSearch(ts)
 
-token = '481955063:AAGwRfDppnW9FH2LeTUKb6OS9RquTbd3ijs'
+token = '407983248:AAGoNA--4lrX7FuflwW47Q7Z1Kdh83CMGBo'
 bot = telebot.TeleBot(token)
 
 

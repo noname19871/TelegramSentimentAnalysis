@@ -4,16 +4,12 @@ DAWG-Python==0.7.2
 docopt==0.6.2
 docutils==0.14
 idna==2.6
-Keras==2.1.5
-lockfile==0.12.2
 numpy==1.14.2
 oauthlib==2.0.7
 pandas==0.22.0
 pymorphy2==0.8
 pymorphy2-dicts==2.4.393442.3710985
 pyTelegramBotAPI==3.6.2
-python-daemon==2.1.2
-python-daemon-3K==1.5.8
 python-dateutil==2.7.2
 pytz==2018.3
 PyYAML==3.12
@@ -22,8 +18,9 @@ requests-oauthlib==0.8.0
 scikit-learn==0.19.1
 scipy==1.0.1
 six==1.11.0
-sklearn==0.0
+sklearn-deltatfidf==0.2
 snowballstemmer==1.2.1
+telebot==0.0.3
 twitter==1.18.0
 TwitterSearch==1.0.2
 urllib3==1.22

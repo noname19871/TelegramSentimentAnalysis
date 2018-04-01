@@ -14,7 +14,7 @@ def train(train_csv):
     data = pd.read_csv(train_csv, index_col=0).dropna()
 
     # высчитываем веса слов по формуле TF_IDF
-    word_weights = TfidfVectorizer(min_df=2, max_df=0.6, analyzer="word", ngram_range=[1, 3])
+    word_weights = TfidfVectorizer(min_df=1, max_df=0.6, analyzer="word", ngram_range=[1, 3])
 
     X = word_weights.fit_transform(data['text'])
 
