@@ -38,7 +38,6 @@ def process_search(message):
             tonal += (predict([tweet['text']]))
             print(i, " - ", tweet['text'])
             i += 1
-    print(tonal / i)
 
 
 work_queue = Queue()
@@ -98,9 +97,12 @@ def get_stop(message):
 def insert_message(message):
     record = (message.message_id, message.from_user.id, message.chat.id, message.from_user.username,
               message.date, message.text, str((predict([message.text]))))
-    print(record)
     work_queue.put(("insert", record,))
 
 
 if __name__ == "__main__":
-    bot.polling(none_stop=True)
+    while True:
+        try:
+            bot.polling(none_stop=True)
+        except:
+            print("произошла какая-то ошибка, но все работает :)")

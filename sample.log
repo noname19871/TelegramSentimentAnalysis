@@ -5059,3 +5059,66 @@ INFO:root:db start
 INFO:root:db start
 INFO:root:db start with user_tonality {'from_user': {'id': 289074157, 'last_name': 'Kuliev', 'first_name': 'Eduard', 'language_code': 'ru', 'username': 'mor1ins', 'is_bot': False}, 'reply_to_message': None, 'forward_date': None, 'new_chat_member': None, 'audio': None, 'successful_payment': None, 'video_note': None, 'document': None, 'text': '/user_tonality@VK_Stream_bot', 'sticker': None, 'voice': None, 'new_chat_title': None, 'edit_date': None, 'location': None, 'entities': [<telebot.types.MessageEntity object at 0x7fcb5dd5d550>], 'caption': None, 'caption_entities': None, 'pinned_message': None, 'date': 1522551578, 'message_id': 1217, 'content_type': 'text', 'delete_chat_photo': None, 'forward_from': None, 'video': None, 'new_chat_members': None, 'photo': None, 'contact': None, 'chat': {'first_name': None, 'type': 'group', 'username': None, 'id': -245833598, 'last_name': None, 'can_set_sticker_set': None, 'photo': None, 'sticker_set_name': None, 'invite_link': None, 'description': None, 'title': 'test1', 'pinned_message': None, 'all_members_are_administrators': True}, 'group_chat_created': None, 'new_chat_photo': None, 'venue': None, 'media_group_id': None, 'author_signature': None, 'connected_website': None, 'supergroup_chat_created': None, 'invoice': None, 'migrate_from_chat_id': None, 'channel_chat_created': None, 'left_chat_member': None, 'migrate_to_chat_id': None, 'forward_from_chat': None}
 INFO:root:db start
+ERROR:TeleBot:ReadTimeout occurred, args=(ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)",),)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.5/ssl.py", line 929, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 791, in read
+    return self._sslobj.read(len, buffer)
+  File "/usr/lib/python3.5/ssl.py", line 575, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 54, in _make_request
+    timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+

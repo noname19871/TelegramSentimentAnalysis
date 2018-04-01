@@ -22,14 +22,11 @@ class DB:
             self.table.commit()
         except:
             pass
-        finally:
-            logging.info("db start")
 
     # record - строка вида (message_id, id, id_chat, name, date, text, tonal)
     def insert(self, record):
         c = self.table.cursor()
         command = "insert into {} values {}".format(self.tablename, record)
-        logging.info(command)
         c.execute(command)
 
     # record - строка вида (id, id_chat, name, date, text, tonal)
@@ -82,7 +79,6 @@ class DBThread(threading.Thread):
         threading.Thread.__init__(self)
         self.bot = bot
         self.work_queue = work_queue
-        logging.basicConfig(filename="sample.log", level=logging.INFO)
         self.filename = filename
 
     def run(self):
@@ -90,7 +86,6 @@ class DBThread(threading.Thread):
         while True:
             if not self.work_queue.empty():
                 (command, request) = self.work_queue.get()
-                logging.info("db start with {} {}".format(command, request))
                 self.execute(command, request)
 
     def get_stat(self, message):
@@ -108,7 +103,6 @@ class DBThread(threading.Thread):
 
     def execute(self, command, body):
         if command == "insert":
-            logging.info("db {} {}".format(command, body))
             self.db.insert(body)
         if command == "delete":
             self.db.delete(body)
