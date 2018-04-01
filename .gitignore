@@ -1,6 +1,8 @@
 venv
 main.py
+config.py
 _pycache_
 *.pyc
 .idea
 .*
+

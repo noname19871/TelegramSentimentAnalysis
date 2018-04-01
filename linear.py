@@ -10,6 +10,7 @@ import pandas as pd
 model_filename = 'model/classifier-linear.joblib.pkl'
 features_filename = 'model/features-linear.joblib.pkl'
 
+
 def train(train_csv):
     # считываем подготовленный датасет
     data = pd.read_csv(train_csv, index_col=0).dropna()

@@ -2,22 +2,17 @@ import telebot
 
 import Bayes
 import linear
+import config
 
 from database import DBThread
 from queue import Queue
-from twiSearch import *
+from twiSearch import twiSearch
 
-ts = TwitterSearch(
-    consumer_key='2znnciYgoysnE44FErSrOCZVt',
-    consumer_secret='9bzEOv6rzvVzKf7WzEqP7NXog8Y8ZxFlcqpVE59T9z2ASSDmZ4',
-    access_token='979832438158446592-Ivp1hQyZyoew5whNbIm3ngZI0FmJvNz',
-    access_token_secret='orqIHLtV2IPJP2JdCChfwVliooIOpNY0LnHlhucXWM7BU'
-)
 
-twi = twiSearch(ts)
 
-token = '407983248:AAGoNA--4lrX7FuflwW47Q7Z1Kdh83CMGBo'
-bot = telebot.TeleBot(token)
+twi = twiSearch(config.ts)
+
+bot = telebot.TeleBot(config.token)
 
 
 def predict(msg):
@@ -62,7 +57,10 @@ def get_stat(message):
 
 @bot.message_handler(commands=['fatality'])
 def get_fatality(message):
-    work_queue.put(("fatality", message.chat.id))
+    if message.from_user.id in config.admins:
+        work_queue.put(("fatality", message.chat.id))
+    else:
+        bot.send_message(message.chat.id, 'you are not in admins list')
 
 
 # TODO callback for argument
