@@ -3,6 +3,10 @@ import threading
 from queue import Queue
 import logging
 
+COLUMNS = "(message_id TEXT NOT NULL, id TEXT NOT NULL, id_chat TEXT NOT NULL, " \
+          "username TEXT NOT NULL, date TEXT NOT NULL, text TEXT NOT NULL, " \
+          "tonal FLOAT NOT NULL)"
+
 
 # "(1423136, 1, 2, 'hu', 'date', 'text', 2)"
 def tuple2str(t):
@@ -11,21 +15,15 @@ def tuple2str(t):
 
 class DB:
     def __init__(self, filename):
-        global c
         self.tablename = filename.split('.')[0]
         try:
             self.table = lite.connect(filename)
-            c = self.table.cursor()
-            create = "CREATE TABLE {} (message_id TEXT NOT NULL, id TEXT NOT NULL, id_chat TEXT NOT NULL, " \
-                     "name TEXT NOT NULL, date TEXT NOT NULL, text TEXT NOT NULL, tonal INT NOT NULL)" \
-                .format(self.tablename)
-            c.execute(create)
+            self.create_table(self.tablename, COLUMNS)
             self.table.commit()
         except:
             pass
         finally:
             logging.info("db start")
-            c.close()
 
     # record - строка вида (message_id, id, id_chat, name, date, text, tonal)
     def insert(self, record):
@@ -53,26 +51,31 @@ class DB:
     def close(self):
         self.table.close()
 
+    def create_table(self, tablename, columns):
+        c = self.table.cursor()
+        create = "CREATE TABLE {} {}".format(tablename, columns)
+        c.execute(create)
+
+    def drop_table(self):
+        c = self.table.cursor()
+        command = "DROP TABLE {}".format(self.tablename)
+        c.execute(command)
+
     def total_tonal(self):
         c = self.table.cursor()
-        command = "SELECT tonal FROM {}".format(self.tablename)
+        command = "SELECT sum(tonal), count(tonal) FROM {}".format(self.tablename)
         return c.execute(command)
 
-    def user_tonal(self, username):
+    def user_tonal(self, usernname):
         c = self.table.cursor()
-        command = "SELECT tonal FROM {} WHERE username='{}'".format(self.tablename, username)
+        command = "SELECT sum(tonal), count(tonal) FROM {} WHERE username='{}'".format(self.tablename, usernname)
         return c.execute(command)
 
+    def users_tonality(self):
+        c = self.table.cursor()
+        command = "SELECT username, sum(tonal), count(tonal) FROM {} GROUP BY username".format(self.tablename)
+        return c.execute(command)
 
-def average_tonal(tonals):
-    records = []
-    tonal = 0
-    for str in tonals
-        records.append(str)
-    for record in records:
-        for t in record:
-            tonal += t
-    return tonal / len(records)
 
 class DBThread(threading.Thread):
     def __init__(self, work_queue, filename, bot):
@@ -90,14 +93,46 @@ class DBThread(threading.Thread):
                 logging.info("db start with {} {}".format(command, request))
                 self.execute(command, request)
 
+    def get_stat(self, message):
+        db = DB(self.filename)
+        user = ([u for u in db.user_tonal(message.text)])[0]
+        if not user[1] == 0:
+            tonal = user[0] / user[1]
+        else:
+            tonal = 0.5
+        self.bot.send_message(message.chat.id, "@{} - {}".format(message.text, tonal))
+        db.close()
+
     def execute(self, command, body):
         if command == "insert":
             logging.info("db {} {}".format(command, body))
             self.db.insert(body)
         if command == "delete":
             self.db.delete(body)
-        if command == "user_tonal":
-            bot.send_message(body, average_tonal(self.db.user_tonal()))
         if command == "total_tonal":
-            bot.send_message(body, average_tonal(self.db.total_tonal()))
+            stat = ([i for i in self.db.total_tonal()])[0]
+            if not stat[1] == 0:
+                tonal = stat[0] / stat[1]
+            else:
+                tonal = 0.5
+            self.bot.send_message(body, "Total tonality = {}".format(tonal))
+        if command == 'user_tonality':
+            self.bot.send_message(body.chat.id, "Put username:")
+            self.bot.register_next_step_handler(body, self.get_stat)
+        if command == 'users_tonality':
+            str = "Статистика по пользователям:\n"
+            users = [u for u in self.db.users_tonality()]
+            for (i, user) in zip(range(1, len(users) + 1), users):
+                if not user[2] == 0:
+                    tonal = user[1] / user[2]
+                else:
+                    tonal = 0.5
+                str = "{}{} - @{}  {}\n".format(str, i, user[0], tonal)
+            self.bot.send_message(body.chat.id, str)
+        if command == "stop":
+            pass
+        if command == 'fatality':
+            self.db.drop_table()
+            self.db.create_table(self.db.tablename, COLUMNS)
+
         self.db.commit()
