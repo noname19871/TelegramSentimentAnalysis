@@ -5,7 +5,6 @@ import Bayes
 import linear
 import config
 
-from database import DB
 from queue import Queue
 from twiSearch import twiSearch
 from database import COLUMNS
@@ -16,6 +15,22 @@ twi = twiSearch(config.ts)
 
 bot = telebot.TeleBot(config.token)
 
+def get_st(message):
+    db = lite.connect('message.db')
+    command = "SELECT sum(tonal), count(tonal) FROM {} WHERE username='{}'".format('messages', message.text)
+    c = db.cursor()
+
+    user_from_db = c.execute(command)
+    user = ([u for u in user_from_db])[0]
+    if user[0] is None:
+        bot.send_message(message.chat.id, "Такого пользователя нет в данном чате")
+        return
+    if not user[1] == 0:
+        tonal = user[0] / user[1]
+    else:
+        tonal = 0.5
+    bot.send_message(message.chat.id, "@{} - {}".format(message.text, tonal))
+    db.close()
 
 def predict(msg):
     if (((Bayes.predict(msg))[0][1] > 0.5) & ((linear.predict(msg))[0][1] > 0.5)) | (
@@ -66,8 +81,6 @@ def get_stat(message):
         command = "SELECT sum(tonal), count(tonal) FROM {}".format('messages')
         c = db.cursor()
         stat = c.execute(command)
-
-
         stat = ([i for i in stat])[0]
         if not stat[1] == 0:
             tonal = stat[0] / stat[1]
@@ -99,7 +112,8 @@ def get_fatality(message):
 @bot.message_handler(commands=['user_tonality'])
 def get_user_tonality(message):
     if message.from_user.id in config.admins:
-        work_queue.put(("user_tonality", message,))
+        bot.send_message(message.chat.id, "Put username:")
+        bot.register_next_step_handler(message, get_st)
     else:
         bot.send_message(message.chat.id, 'you are not in admins list')
 
@@ -107,7 +121,25 @@ def get_user_tonality(message):
 @bot.message_handler(commands=['users_tonality'])
 def get_users_tonality(message):
     if message.from_user.id in config.admins:
-        work_queue.put(("users_tonality", message,))
+        db = lite.connect('message.db')
+        c = db.cursor()
+        str = "Статистика по пользователям:\n"
+        command = "SELECT username, sum(tonal), count(tonal) FROM {} GROUP BY username".format('messages')
+        users_from_db = c.execute(command)
+        users = [u for u in users_from_db]
+        users_tonal = []
+        for user in users:
+            if not user[2] == 0:
+                tonal = user[1] / user[2]
+            else:
+                tonal = 0.5
+            users_tonal.append((user[0], tonal,))
+        for (i, user) in zip(range(1, len(users) + 1), sorted(users_tonal, key=lambda x: x[1], reverse=True)):
+            str = "{}{} - @{}  {}\n".format(str, i, user[0], user[1])
+
+        bot.send_message(message.chat.id, str)
+        db.commit()
+        db.close()
     else:
         bot.send_message(message.chat.id, 'you are not in admins list')
 
@@ -124,12 +156,12 @@ def get_help(message):
                                       '/stop - stop bot')
 
 
-@bot.message_handler(commands=['stop'])
-def get_stop(message):
-    if message.from_user.id in config.admins:
-        work_queue.put(("stop", message.chat.id,))
-    else:
-        bot.send_message(message.chat.id, 'you are not in admins list')
+# @bot.message_handler(commands=['stop'])
+# def get_stop(message):
+#     if message.from_user.id in config.admins:
+#         work_queue.put(("stop", message.chat.id,))
+#     else:
+#         bot.send_message(message.chat.id, 'you are not in admins list')
 
 
 @bot.message_handler(content_types=["text"])
