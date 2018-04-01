@@ -28,7 +28,7 @@ def train(train_csv):
         'alpha': [0.001, 0.0001, 0.00001, 0.000001]
     }
 
-    #
+    # Стохастический градиентный спуск с функцией потерь Хьюбера
     clf = SGDClassifier(max_iter=1000)
     gs_clf = GridSearchCV(clf, parameters, cv=None, n_jobs=-1)
     gs_clf = gs_clf.fit(X, y)

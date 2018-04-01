@@ -1,12 +1,14 @@
 import telebot
+import sqlite3 as lite
 
 import Bayes
 import linear
 import config
 
-from database import DBThread
+from database import DB
 from queue import Queue
 from twiSearch import twiSearch
+from database import COLUMNS
 
 
 
@@ -35,30 +37,53 @@ def process_search(message):
 
 
 work_queue = Queue()
-db = DBThread(work_queue, "messages.db", bot)
-db.start()
+# db = DB("messages.db")
+
+
 
 
 @bot.message_handler(commands=['search_twitter'])
 def search(message):
-    bot.send_message(message.chat.id, "Put tags:")
-    bot.register_next_step_handler(message, process_search)
+    bot.send_message(message.chat.id, "coming soon")
+    # bot.register_next_step_handler(message, process_search)
 
 
 @bot.message_handler(commands=['start'])
 def get_start(message):
+    db = lite.connect('message.db')
+    c = db.cursor()
+    create = "CREATE TABLE IF NOT EXISTS {} {}".format('messages', COLUMNS)
+    c.execute(create)
+    db.commit()
+    db.close()
     bot.send_message(message.chat.id, "for more information type /help")
 
 
 @bot.message_handler(commands=['total_tonality'])
 def get_stat(message):
-    work_queue.put(("total_tonal", message.chat.id,))
+    if message.from_user.id in config.admins:
+        db = lite.connect('message.db')
+        command = "SELECT sum(tonal), count(tonal) FROM {}".format('messages')
+        c = db.cursor()
+        stat = c.execute(command)
+
+
+        stat = ([i for i in stat])[0]
+        if not stat[1] == 0:
+            tonal = stat[0] / stat[1]
+        else:
+            tonal = 0.5
+        bot.send_message(message.chat.id, "Total tonality = {}".format(tonal))
+        db.commit()
+        db.close()
+    else:
+        bot.send_message(message.chat.id, 'you are not in admins list')
 
 
 @bot.message_handler(commands=['fatality'])
 def get_fatality(message):
     if message.from_user.id in config.admins:
-        work_queue.put(("fatality", message.chat.id))
+        work_queue.put(("fatality", message.chat.id,))
     else:
         bot.send_message(message.chat.id, 'you are not in admins list')
 
@@ -66,12 +91,19 @@ def get_fatality(message):
 # TODO callback for argument
 @bot.message_handler(commands=['user_tonality'])
 def get_user_tonality(message):
-    work_queue.put(("user_tonality", message,))
+    if message.from_user.id in config.admins:
+        work_queue.put(("user_tonality", message,))
+    else:
+        bot.send_message(message.chat.id, 'you are not in admins list')
 
 
 @bot.message_handler(commands=['users_tonality'])
 def get_users_tonality(message):
-    work_queue.put(("users_tonality", message,))
+    if message.from_user.id in config.admins:
+        work_queue.put(("users_tonality", message,))
+    else:
+        bot.send_message(message.chat.id, 'you are not in admins list')
+
 
 
 @bot.message_handler(commands=['help'])
@@ -87,14 +119,25 @@ def get_help(message):
 
 @bot.message_handler(commands=['stop'])
 def get_stop(message):
-    work_queue.put(("stop", message.chat.id,))
+    if message.from_user.id in config.admins:
+        work_queue.put(("stop", message.chat.id,))
+    else:
+        bot.send_message(message.chat.id, 'you are not in admins list')
 
 
 @bot.message_handler(content_types=["text"])
 def insert_message(message):
+    db = lite.connect('message.db')
     record = (message.message_id, message.from_user.id, message.chat.id, message.from_user.username,
               message.date, message.text, str((predict([message.text]))))
-    work_queue.put(("insert", record,))
+    command = "insert into {} values {}".format('messages', record)
+    c = db.cursor()
+    c.execute(command)
+    db.commit()
+    db.close()
+
+
+    # work_queue.put(("insert", record,))
 
 
 if __name__ == "__main__":

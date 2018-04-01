@@ -20,7 +20,7 @@ def train(train_csv):
 
     y = data['mark']
 
-    # наивный байес
+    # Наивный Байесовский классификатор
     clf = MultinomialNB()
     clf.fit(X, y)
 

@@ -20,6 +20,7 @@ class DB:
             self.table = lite.connect(filename)
             self.create_table(self.tablename, COLUMNS)
             self.table.commit()
+            self.table.close()
         except:
             pass
 
