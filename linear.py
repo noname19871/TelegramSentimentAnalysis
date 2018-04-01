@@ -22,13 +22,13 @@ def train(train_csv):
     y = data['mark']
 
     parameters = {
-        'loss': ['log'],
+        'loss': ('log', 'modified_huber'),
         'penalty': ['none', 'l1', 'l2', 'elasticnet'],
         'alpha': [0.001, 0.0001, 0.00001, 0.000001]
     }
 
     #
-    clf = SGDClassifier()
+    clf = SGDClassifier(max_iter=1000)
     gs_clf = GridSearchCV(clf, parameters, cv=None, n_jobs=-1)
     gs_clf = gs_clf.fit(X, y)
 

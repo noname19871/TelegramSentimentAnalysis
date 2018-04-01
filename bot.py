@@ -100,8 +100,7 @@ def insert_message(message):
 
 
 if __name__ == "__main__":
-    while True:
         try:
             bot.polling(none_stop=True)
         except:
-            print("произошла какая-то ошибка, но все работает :)")
+            print("произошла какая-то ошибка")
