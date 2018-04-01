@@ -22,14 +22,11 @@ class DB:
             self.table.commit()
         except:
             pass
-        finally:
-            logging.info("db start")
 
     # record - строка вида (message_id, id, id_chat, name, date, text, tonal)
     def insert(self, record):
         c = self.table.cursor()
         command = "insert into {} values {}".format(self.tablename, record)
-        logging.info(command)
         c.execute(command)
 
     # record - строка вида (id, id_chat, name, date, text, tonal)
@@ -82,7 +79,6 @@ class DBThread(threading.Thread):
         threading.Thread.__init__(self)
         self.bot = bot
         self.work_queue = work_queue
-        logging.basicConfig(filename="sample.log", level=logging.INFO)
         self.filename = filename
 
     def run(self):
@@ -90,12 +86,14 @@ class DBThread(threading.Thread):
         while True:
             if not self.work_queue.empty():
                 (command, request) = self.work_queue.get()
-                logging.info("db start with {} {}".format(command, request))
                 self.execute(command, request)
 
     def get_stat(self, message):
         db = DB(self.filename)
         user = ([u for u in db.user_tonal(message.text)])[0]
+        if user[0] is None:
+            self.bot.send_message(message.chat.id, "Такого пользователя нет в данном чате")
+            return
         if not user[1] == 0:
             tonal = user[0] / user[1]
         else:
@@ -105,7 +103,6 @@ class DBThread(threading.Thread):
 
     def execute(self, command, body):
         if command == "insert":
-            logging.info("db {} {}".format(command, body))
             self.db.insert(body)
         if command == "delete":
             self.db.delete(body)
@@ -122,12 +119,15 @@ class DBThread(threading.Thread):
         if command == 'users_tonality':
             str = "Статистика по пользователям:\n"
             users = [u for u in self.db.users_tonality()]
-            for (i, user) in zip(range(1, len(users) + 1), users):
+            users_tonal = []
+            for user in users:
                 if not user[2] == 0:
                     tonal = user[1] / user[2]
                 else:
                     tonal = 0.5
-                str = "{}{} - @{}  {}\n".format(str, i, user[0], tonal)
+                users_tonal.append((user[0], tonal,))
+            for (i, user) in zip(range(1, len(users) + 1), sorted(users_tonal, key=lambda x: x[1], reverse=True)):
+                str = "{}{} - @{}  {}\n".format(str, i, user[0], user[1])
             self.bot.send_message(body.chat.id, str)
         if command == "stop":
             pass
