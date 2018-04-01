@@ -83,7 +83,14 @@ def get_stat(message):
 @bot.message_handler(commands=['fatality'])
 def get_fatality(message):
     if message.from_user.id in config.admins:
-        work_queue.put(("fatality", message.chat.id,))
+        db = lite.connect('message.db')
+        c = db.cursor()
+        command = "DROP TABLE {}".format('messages')
+        c.execute(command)
+        command = "CREATE TABLE IF NOT EXISTS {} {}".format('messages', COLUMNS)
+        c.execute(command)
+        db.commit()
+        db.close()
     else:
         bot.send_message(message.chat.id, 'you are not in admins list')
 
@@ -135,9 +142,6 @@ def insert_message(message):
     c.execute(command)
     db.commit()
     db.close()
-
-
-    # work_queue.put(("insert", record,))
 
 
 if __name__ == "__main__":
