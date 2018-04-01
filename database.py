@@ -96,6 +96,9 @@ class DBThread(threading.Thread):
     def get_stat(self, message):
         db = DB(self.filename)
         user = ([u for u in db.user_tonal(message.text)])[0]
+        if user[0] is None:
+            self.bot.send_message(message.chat.id, "Такого пользователя нет в данном чате")
+            return
         if not user[1] == 0:
             tonal = user[0] / user[1]
         else:
@@ -122,12 +125,15 @@ class DBThread(threading.Thread):
         if command == 'users_tonality':
             str = "Статистика по пользователям:\n"
             users = [u for u in self.db.users_tonality()]
-            for (i, user) in zip(range(1, len(users) + 1), users):
+            users_tonal = []
+            for user in users:
                 if not user[2] == 0:
                     tonal = user[1] / user[2]
                 else:
                     tonal = 0.5
-                str = "{}{} - @{}  {}\n".format(str, i, user[0], tonal)
+                users_tonal.append((user[0], tonal,))
+            for (i, user) in zip(range(1, len(users) + 1), sorted(users_tonal, key=lambda x: x[1], reverse=True)):
+                str = "{}{} - @{}  {}\n".format(str, i, user[0], user[1])
             self.bot.send_message(body.chat.id, str)
         if command == "stop":
             pass

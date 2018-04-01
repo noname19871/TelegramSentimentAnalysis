@@ -4240,3 +4240,822 @@ Traceback (most recent call last):
     raise ReadTimeout(e, request=request)
 requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
 
+INFO:root:db start
+INFO:root:db start
+INFO:root:db start with total_tonal 289074157
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1119, 289074157, 289074157, 'mor1ins', 1522549530, 'к сожалению', '0.5')
+INFO:root:db insert (1119, 289074157, 289074157, 'mor1ins', 1522549530, 'к сожалению', '0.5')
+INFO:root:insert into messages values (1119, 289074157, 289074157, 'mor1ins', 1522549530, 'к сожалению', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1118, 289074157, 289074157, 'mor1ins', 1522549527, 'это был прекрасный день', '0.8498083871138656')
+INFO:root:db insert (1118, 289074157, 289074157, 'mor1ins', 1522549527, 'это был прекрасный день', '0.8498083871138656')
+INFO:root:insert into messages values (1118, 289074157, 289074157, 'mor1ins', 1522549527, 'это был прекрасный день', '0.8498083871138656')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with total_tonal 289074157
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1120, 289074157, 289074157, 'mor1ins', 1522549535, 'вечер все испортил', '0.7387891890948851')
+INFO:root:db insert (1120, 289074157, 289074157, 'mor1ins', 1522549535, 'вечер все испортил', '0.7387891890948851')
+INFO:root:insert into messages values (1120, 289074157, 289074157, 'mor1ins', 1522549535, 'вечер все испортил', '0.7387891890948851')
+INFO:root:db start with users_tonality {'date': 1522549552, 'left_chat_member': None, 'video': None, 'audio': None, 'channel_chat_created': None, 'new_chat_photo': None, 'sticker': None, 'document': None, 'text': '/users_tonality', 'content_type': 'text', 'author_signature': None, 'video_note': None, 'message_id': 1123, 'location': None, 'entities': [<telebot.types.MessageEntity object at 0x7f81476cd1d0>], 'caption': None, 'caption_entities': None, 'connected_website': None, 'pinned_message': None, 'edit_date': None, 'new_chat_title': None, 'migrate_from_chat_id': None, 'successful_payment': None, 'photo': None, 'contact': None, 'reply_to_message': None, 'voice': None, 'group_chat_created': None, 'media_group_id': None, 'supergroup_chat_created': None, 'new_chat_member': None, 'delete_chat_photo': None, 'migrate_to_chat_id': None, 'forward_date': None, 'new_chat_members': None, 'from_user': {'id': 289074157, 'last_name': 'Kuliev', 'is_bot': False, 'username': 'mor1ins', 'language_code': 'ru', 'first_name': 'Eduard'}, 'venue': None, 'forward_from_chat': None, 'invoice': None, 'chat': {'id': 289074157, 'invite_link': None, 'type': 'private', 'username': 'mor1ins', 'pinned_message': None, 'first_name': 'Eduard', 'title': None, 'can_set_sticker_set': None, 'last_name': 'Kuliev', 'description': None, 'all_members_are_administrators': None, 'sticker_set_name': None, 'photo': None}, 'forward_from': None}
+INFO:root:db start
+INFO:root:db start with users_tonality {'date': 1522549618, 'successful_payment': None, 'from_user': {'username': 'mor1ins', 'last_name': 'Kuliev', 'is_bot': False, 'first_name': 'Eduard', 'id': 289074157, 'language_code': 'ru'}, 'edit_date': None, 'new_chat_members': None, 'media_group_id': None, 'video_note': None, 'venue': None, 'author_signature': None, 'chat': {'type': 'private', 'sticker_set_name': None, 'description': None, 'invite_link': None, 'username': 'mor1ins', 'last_name': 'Kuliev', 'pinned_message': None, 'can_set_sticker_set': None, 'photo': None, 'first_name': 'Eduard', 'id': 289074157, 'all_members_are_administrators': None, 'title': None}, 'photo': None, 'video': None, 'group_chat_created': None, 'forward_date': None, 'forward_from_chat': None, 'migrate_to_chat_id': None, 'message_id': 1124, 'connected_website': None, 'text': '/users_tonality', 'channel_chat_created': None, 'document': None, 'invoice': None, 'left_chat_member': None, 'content_type': 'text', 'new_chat_title': None, 'location': None, 'delete_chat_photo': None, 'contact': None, 'new_chat_photo': None, 'pinned_message': None, 'forward_from': None, 'caption': None, 'supergroup_chat_created': None, 'sticker': None, 'new_chat_member': None, 'entities': [<telebot.types.MessageEntity object at 0x7f3920390ba8>], 'audio': None, 'caption_entities': None, 'voice': None, 'migrate_from_chat_id': None, 'reply_to_message': None}
+INFO:root:db start with fatality -245833598
+INFO:root:db start with total_tonal -245833598
+INFO:root:db start
+ERROR:TeleBot:ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:\n[b\'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}\']',)
+Traceback (most recent call last):
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/util.py", line 59, in run
+    task(*args, **kwargs)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 159, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/__init__.py", line 129, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 175, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 56, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/telebot/apihelper.py", line 75, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+
+INFO:root:db start
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1137, 289074157, -245833598, 'mor1ins', 1522550246, 'прекрасно', '0.5')
+INFO:root:db insert (1137, 289074157, -245833598, 'mor1ins', 1522550246, 'прекрасно', '0.5')
+INFO:root:insert into messages values (1137, 289074157, -245833598, 'mor1ins', 1522550246, 'прекрасно', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1138, 233249418, -245833598, 'zeroday343', 1522550296, 'Привет', '0.5')
+INFO:root:db insert (1138, 233249418, -245833598, 'zeroday343', 1522550296, 'Привет', '0.5')
+INFO:root:insert into messages values (1138, 233249418, -245833598, 'zeroday343', 1522550296, 'Привет', '0.5')
+INFO:root:db start with total_tonal -245833598
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with total_tonal -245833598
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1143, 233249418, -245833598, 'zeroday343', 1522550321, 'Ужасный', '0.1506617613636974')
+INFO:root:db insert (1143, 233249418, -245833598, 'zeroday343', 1522550321, 'Ужасный', '0.1506617613636974')
+INFO:root:insert into messages values (1143, 233249418, -245833598, 'zeroday343', 1522550321, 'Ужасный', '0.1506617613636974')
+INFO:root:db start with fatality -245833598
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:root:db start with insert (1147, 233249418, -245833598, 'zeroday343', 1522550425, 'Ужасный день', '0.16135684731273764')
+INFO:root:db insert (1147, 233249418, -245833598, 'zeroday343', 1522550425, 'Ужасный день', '0.16135684731273764')
+INFO:root:insert into messages values (1147, 233249418, -245833598, 'zeroday343', 1522550425, 'Ужасный день', '0.16135684731273764')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1149, 233249418, -245833598, 'zeroday343', 1522550433, 'А', '0.5')
+INFO:root:db insert (1149, 233249418, -245833598, 'zeroday343', 1522550433, 'А', '0.5')
+INFO:root:insert into messages values (1149, 233249418, -245833598, 'zeroday343', 1522550433, 'А', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1148, 233249418, -245833598, 'zeroday343', 1522550430, 'Плохая погода сегодня', '0.17771016096387168')
+INFO:root:db insert (1148, 233249418, -245833598, 'zeroday343', 1522550430, 'Плохая погода сегодня', '0.17771016096387168')
+INFO:root:insert into messages values (1148, 233249418, -245833598, 'zeroday343', 1522550430, 'Плохая погода сегодня', '0.17771016096387168')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1150, 233249418, -245833598, 'zeroday343', 1522550440, 'Я ненавижу этот хакатон', '0.13588489683433455')
+INFO:root:db insert (1150, 233249418, -245833598, 'zeroday343', 1522550440, 'Я ненавижу этот хакатон', '0.13588489683433455')
+INFO:root:insert into messages values (1150, 233249418, -245833598, 'zeroday343', 1522550440, 'Я ненавижу этот хакатон', '0.13588489683433455')
+INFO:root:db start with total_tonal -245833598
+INFO:root:db start with users_tonality {'chat': {'first_name': None, 'last_name': None, 'type': 'group', 'title': 'test1', 'username': None, 'sticker_set_name': None, 'description': None, 'all_members_are_administrators': True, 'can_set_sticker_set': None, 'photo': None, 'invite_link': None, 'id': -245833598, 'pinned_message': None}, 'author_signature': None, 'successful_payment': None, 'supergroup_chat_created': None, 'document': None, 'from_user': {'first_name': 'Eduard', 'last_name': 'Kuliev', 'is_bot': False, 'id': 289074157, 'language_code': 'ru', 'username': 'mor1ins'}, 'media_group_id': None, 'audio': None, 'connected_website': None, 'forward_date': None, 'forward_from': None, 'message_id': 1153, 'voice': None, 'sticker': None, 'photo': None, 'venue': None, 'new_chat_photo': None, 'forward_from_chat': None, 'pinned_message': None, 'video': None, 'left_chat_member': None, 'entities': [<telebot.types.MessageEntity object at 0x7f0734e35fd0>], 'contact': None, 'date': 1522550466, 'location': None, 'caption': None, 'caption_entities': None, 'content_type': 'text', 'new_chat_members': None, 'migrate_to_chat_id': None, 'migrate_from_chat_id': None, 'invoice': None, 'video_note': None, 'new_chat_member': None, 'reply_to_message': None, 'group_chat_created': None, 'edit_date': None, 'channel_chat_created': None, 'text': '/users_tonality@VK_Stream_bot', 'new_chat_title': None, 'delete_chat_photo': None}
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1155, 289074157, -245833598, 'mor1ins', 1522550510, 'отличный день', '0.2321814705585755')
+INFO:root:db insert (1155, 289074157, -245833598, 'mor1ins', 1522550510, 'отличный день', '0.2321814705585755')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:insert into messages values (1155, 289074157, -245833598, 'mor1ins', 1522550510, 'отличный день', '0.2321814705585755')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1156, 289074157, -245833598, 'mor1ins', 1522550514, 'прексная погода', '0.5')
+INFO:root:db insert (1156, 289074157, -245833598, 'mor1ins', 1522550514, 'прексная погода', '0.5')
+INFO:root:insert into messages values (1156, 289074157, -245833598, 'mor1ins', 1522550514, 'прексная погода', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1157, 289074157, -245833598, 'mor1ins', 1522550517, 'бот работает', '0.5')
+INFO:root:db insert (1157, 289074157, -245833598, 'mor1ins', 1522550517, 'бот работает', '0.5')
+INFO:root:insert into messages values (1157, 289074157, -245833598, 'mor1ins', 1522550517, 'бот работает', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1158, 289074157, -245833598, 'mor1ins', 1522550519, 'супер', '0.5')
+INFO:root:db insert (1158, 289074157, -245833598, 'mor1ins', 1522550519, 'супер', '0.5')
+INFO:root:insert into messages values (1158, 289074157, -245833598, 'mor1ins', 1522550519, 'супер', '0.5')
+INFO:root:db start with users_tonality {'chat': {'first_name': None, 'last_name': None, 'type': 'group', 'title': 'test1', 'username': None, 'sticker_set_name': None, 'description': None, 'all_members_are_administrators': True, 'can_set_sticker_set': None, 'photo': None, 'invite_link': None, 'id': -245833598, 'pinned_message': None}, 'author_signature': None, 'successful_payment': None, 'supergroup_chat_created': None, 'document': None, 'from_user': {'first_name': 'Eduard', 'last_name': 'Kuliev', 'is_bot': False, 'id': 289074157, 'language_code': 'ru', 'username': 'mor1ins'}, 'media_group_id': None, 'audio': None, 'connected_website': None, 'forward_date': None, 'forward_from': None, 'message_id': 1159, 'voice': None, 'sticker': None, 'photo': None, 'venue': None, 'new_chat_photo': None, 'forward_from_chat': None, 'pinned_message': None, 'video': None, 'left_chat_member': None, 'entities': [<telebot.types.MessageEntity object at 0x7f07342ca9e8>], 'contact': None, 'date': 1522550525, 'location': None, 'caption': None, 'caption_entities': None, 'content_type': 'text', 'new_chat_members': None, 'migrate_to_chat_id': None, 'migrate_from_chat_id': None, 'invoice': None, 'video_note': None, 'new_chat_member': None, 'reply_to_message': None, 'group_chat_created': None, 'edit_date': None, 'channel_chat_created': None, 'text': '/users_tonality@VK_Stream_bot', 'new_chat_title': None, 'delete_chat_photo': None}
+INFO:root:db start
+INFO:root:db start with users_tonality {'chat': {'type': 'group', 'id': -245833598, 'photo': None, 'description': None, 'title': 'test1', 'invite_link': None, 'sticker_set_name': None, 'first_name': None, 'can_set_sticker_set': None, 'all_members_are_administrators': True, 'pinned_message': None, 'username': None, 'last_name': None}, 'media_group_id': None, 'reply_to_message': None, 'author_signature': None, 'voice': None, 'forward_date': None, 'from_user': {'language_code': 'ru', 'first_name': 'Eduard', 'last_name': 'Kuliev', 'is_bot': False, 'id': 289074157, 'username': 'mor1ins'}, 'left_chat_member': None, 'audio': None, 'group_chat_created': None, 'photo': None, 'forward_from_chat': None, 'successful_payment': None, 'new_chat_title': None, 'new_chat_member': None, 'contact': None, 'supergroup_chat_created': None, 'text': '/users_tonality@VK_Stream_bot', 'location': None, 'venue': None, 'video_note': None, 'delete_chat_photo': None, 'new_chat_members': None, 'content_type': 'text', 'new_chat_photo': None, 'forward_from': None, 'migrate_from_chat_id': None, 'message_id': 1161, 'edit_date': None, 'pinned_message': None, 'migrate_to_chat_id': None, 'channel_chat_created': None, 'date': 1522550660, 'connected_website': None, 'invoice': None, 'video': None, 'entities': [<telebot.types.MessageEntity object at 0x7fc610797cf8>], 'caption_entities': None, 'caption': None, 'sticker': None, 'document': None}
+INFO:root:db start with user_tonality {'chat': {'type': 'group', 'id': -245833598, 'photo': None, 'description': None, 'title': 'test1', 'invite_link': None, 'sticker_set_name': None, 'first_name': None, 'can_set_sticker_set': None, 'all_members_are_administrators': True, 'pinned_message': None, 'username': None, 'last_name': None}, 'media_group_id': None, 'reply_to_message': None, 'author_signature': None, 'voice': None, 'forward_date': None, 'from_user': {'language_code': 'ru', 'first_name': 'Eduard', 'last_name': 'Kuliev', 'is_bot': False, 'id': 289074157, 'username': 'mor1ins'}, 'left_chat_member': None, 'audio': None, 'group_chat_created': None, 'photo': None, 'forward_from_chat': None, 'successful_payment': None, 'new_chat_title': None, 'new_chat_member': None, 'contact': None, 'supergroup_chat_created': None, 'text': '/user_tonality@VK_Stream_bot', 'location': None, 'venue': None, 'video_note': None, 'delete_chat_photo': None, 'new_chat_members': None, 'content_type': 'text', 'new_chat_photo': None, 'forward_from': None, 'migrate_from_chat_id': None, 'message_id': 1165, 'edit_date': None, 'pinned_message': None, 'migrate_to_chat_id': None, 'channel_chat_created': None, 'date': 1522550739, 'connected_website': None, 'invoice': None, 'video': None, 'entities': [<telebot.types.MessageEntity object at 0x7fc6107aa7f0>], 'caption_entities': None, 'caption': None, 'sticker': None, 'document': None}
+INFO:root:db start
+INFO:root:db start with users_tonality {'chat': {'type': 'group', 'id': -245833598, 'photo': None, 'description': None, 'title': 'test1', 'invite_link': None, 'sticker_set_name': None, 'first_name': None, 'can_set_sticker_set': None, 'all_members_are_administrators': True, 'pinned_message': None, 'username': None, 'last_name': None}, 'media_group_id': None, 'reply_to_message': None, 'author_signature': None, 'voice': None, 'forward_date': None, 'from_user': {'language_code': None, 'first_name': 'Andrew', 'last_name': 'Marchenko', 'is_bot': False, 'id': 233249418, 'username': 'zeroday343'}, 'left_chat_member': None, 'audio': None, 'group_chat_created': None, 'photo': None, 'forward_from_chat': None, 'successful_payment': None, 'new_chat_title': None, 'new_chat_member': None, 'contact': None, 'supergroup_chat_created': None, 'text': '/users_tonality@VK_Stream_bot', 'location': None, 'venue': None, 'video_note': None, 'delete_chat_photo': None, 'new_chat_members': None, 'content_type': 'text', 'new_chat_photo': None, 'forward_from': None, 'migrate_from_chat_id': None, 'message_id': 1169, 'edit_date': None, 'pinned_message': None, 'migrate_to_chat_id': None, 'channel_chat_created': None, 'date': 1522550754, 'connected_website': None, 'invoice': None, 'video': None, 'entities': [<telebot.types.MessageEntity object at 0x7fc610797f98>], 'caption_entities': None, 'caption': None, 'sticker': None, 'document': None}
+INFO:root:db start with user_tonality {'chat': {'type': 'group', 'id': -245833598, 'photo': None, 'description': None, 'title': 'test1', 'invite_link': None, 'sticker_set_name': None, 'first_name': None, 'can_set_sticker_set': None, 'all_members_are_administrators': True, 'pinned_message': None, 'username': None, 'last_name': None}, 'media_group_id': None, 'reply_to_message': None, 'author_signature': None, 'voice': None, 'forward_date': None, 'from_user': {'language_code': 'ru', 'first_name': 'Eduard', 'last_name': 'Kuliev', 'is_bot': False, 'id': 289074157, 'username': 'mor1ins'}, 'left_chat_member': None, 'audio': None, 'group_chat_created': None, 'photo': None, 'forward_from_chat': None, 'successful_payment': None, 'new_chat_title': None, 'new_chat_member': None, 'contact': None, 'supergroup_chat_created': None, 'text': '/user_tonality@VK_Stream_bot', 'location': None, 'venue': None, 'video_note': None, 'delete_chat_photo': None, 'new_chat_members': None, 'content_type': 'text', 'new_chat_photo': None, 'forward_from': None, 'migrate_from_chat_id': None, 'message_id': 1171, 'edit_date': None, 'pinned_message': None, 'migrate_to_chat_id': None, 'channel_chat_created': None, 'date': 1522550788, 'connected_website': None, 'invoice': None, 'video': None, 'entities': [<telebot.types.MessageEntity object at 0x7fc6107aafd0>], 'caption_entities': None, 'caption': None, 'sticker': None, 'document': None}
+INFO:root:db start
+INFO:root:db start with user_tonality {'chat': {'type': 'group', 'id': -245833598, 'photo': None, 'description': None, 'title': 'test1', 'invite_link': None, 'sticker_set_name': None, 'first_name': None, 'can_set_sticker_set': None, 'all_members_are_administrators': True, 'pinned_message': None, 'username': None, 'last_name': None}, 'media_group_id': None, 'reply_to_message': None, 'author_signature': None, 'voice': None, 'forward_date': None, 'from_user': {'language_code': 'ru', 'first_name': 'Eduard', 'last_name': 'Kuliev', 'is_bot': False, 'id': 289074157, 'username': 'mor1ins'}, 'left_chat_member': None, 'audio': None, 'group_chat_created': None, 'photo': None, 'forward_from_chat': None, 'successful_payment': None, 'new_chat_title': None, 'new_chat_member': None, 'contact': None, 'supergroup_chat_created': None, 'text': '/user_tonality@VK_Stream_bot', 'location': None, 'venue': None, 'video_note': None, 'delete_chat_photo': None, 'new_chat_members': None, 'content_type': 'text', 'new_chat_photo': None, 'forward_from': None, 'migrate_from_chat_id': None, 'message_id': 1175, 'edit_date': None, 'pinned_message': None, 'migrate_to_chat_id': None, 'channel_chat_created': None, 'date': 1522550820, 'connected_website': None, 'invoice': None, 'video': None, 'entities': [<telebot.types.MessageEntity object at 0x7fc6107aa160>], 'caption_entities': None, 'caption': None, 'sticker': None, 'document': None}
+INFO:root:db start
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1179, 233249418, -245833598, 'zeroday343', 1522550942, 'отлично', '0.5')
+INFO:root:db insert (1179, 233249418, -245833598, 'zeroday343', 1522550942, 'отлично', '0.5')
+INFO:root:insert into messages values (1179, 233249418, -245833598, 'zeroday343', 1522550942, 'отлично', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1180, 233249418, -245833598, 'zeroday343', 1522551109, 'отлично', '0.5')
+INFO:root:db insert (1180, 233249418, -245833598, 'zeroday343', 1522551109, 'отлично', '0.5')
+INFO:root:insert into messages values (1180, 233249418, -245833598, 'zeroday343', 1522551109, 'отлично', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1181, 233249418, -245833598, 'zeroday343', 1522551133, 'отличный', '0.5')
+INFO:root:db insert (1181, 233249418, -245833598, 'zeroday343', 1522551133, 'отличный', '0.5')
+INFO:root:insert into messages values (1181, 233249418, -245833598, 'zeroday343', 1522551133, 'отличный', '0.5')
+INFO:root:db start
+INFO:root:db start with user_tonality {'connected_website': None, 'photo': None, 'caption': None, 'voice': None, 'content_type': 'text', 'text': '/user_tonality@WeirdDumBot', 'migrate_to_chat_id': None, 'media_group_id': None, 'new_chat_member': None, 'video': None, 'document': None, 'venue': None, 'forward_from': None, 'entities': [<telebot.types.MessageEntity object at 0x7f2ce667ecc0>], 'location': None, 'forward_date': None, 'forward_from_chat': None, 'contact': None, 'audio': None, 'date': 1522551157, 'left_chat_member': None, 'new_chat_title': None, 'invoice': None, 'edit_date': None, 'sticker': None, 'reply_to_message': None, 'new_chat_photo': None, 'successful_payment': None, 'supergroup_chat_created': None, 'caption_entities': None, 'pinned_message': None, 'video_note': None, 'channel_chat_created': None, 'message_id': 1182, 'migrate_from_chat_id': None, 'from_user': {'is_bot': False, 'username': 'mor1ins', 'first_name': 'Eduard', 'last_name': 'Kuliev', 'language_code': 'ru', 'id': 289074157}, 'new_chat_members': None, 'author_signature': None, 'delete_chat_photo': None, 'group_chat_created': None, 'chat': {'sticker_set_name': None, 'photo': None, 'id': -245833598, 'description': None, 'title': 'test1', 'all_members_are_administrators': True, 'pinned_message': None, 'can_set_sticker_set': None, 'username': None, 'first_name': None, 'last_name': None, 'type': 'group', 'invite_link': None}}
+INFO:root:db start
+INFO:root:db start
+INFO:root:db start with fatality -245833598
+INFO:root:db start with fatality -245833598
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1189, 289074157, -245833598, 'mor1ins', 1522551272, 'здарова', '0.5')
+INFO:root:db insert (1189, 289074157, -245833598, 'mor1ins', 1522551272, 'здарова', '0.5')
+INFO:root:insert into messages values (1189, 289074157, -245833598, 'mor1ins', 1522551272, 'здарова', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1188, 233249418, -245833598, 'zeroday343', 1522551267, 'Здарова', '0.5')
+INFO:root:db insert (1188, 233249418, -245833598, 'zeroday343', 1522551267, 'Здарова', '0.5')
+INFO:root:insert into messages values (1188, 233249418, -245833598, 'zeroday343', 1522551267, 'Здарова', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1190, 233249418, -245833598, 'zeroday343', 1522551280, 'Как тебе бот?', '0.7436927966084242')
+INFO:root:db insert (1190, 233249418, -245833598, 'zeroday343', 1522551280, 'Как тебе бот?', '0.7436927966084242')
+INFO:root:insert into messages values (1190, 233249418, -245833598, 'zeroday343', 1522551280, 'Как тебе бот?', '0.7436927966084242')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1191, 289074157, -245833598, 'mor1ins', 1522551288, 'скучно их тестировать', '0.18532236304498748')
+INFO:root:db insert (1191, 289074157, -245833598, 'mor1ins', 1522551288, 'скучно их тестировать', '0.18532236304498748')
+INFO:root:insert into messages values (1191, 289074157, -245833598, 'mor1ins', 1522551288, 'скучно их тестировать', '0.18532236304498748')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1192, 289074157, -245833598, 'mor1ins', 1522551290, 'я устал', '0.5')
+INFO:root:db insert (1192, 289074157, -245833598, 'mor1ins', 1522551290, 'я устал', '0.5')
+INFO:root:insert into messages values (1192, 289074157, -245833598, 'mor1ins', 1522551290, 'я устал', '0.5')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1193, 289074157, -245833598, 'mor1ins', 1522551293, 'хочу кушать', '0.2315000671211813')
+INFO:root:db insert (1193, 289074157, -245833598, 'mor1ins', 1522551293, 'хочу кушать', '0.2315000671211813')
+INFO:root:insert into messages values (1193, 289074157, -245833598, 'mor1ins', 1522551293, 'хочу кушать', '0.2315000671211813')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1194, 233249418, -245833598, 'zeroday343', 1522551300, 'Уже ненавидишь меня за эту идею?', '0.14276712166983338')
+INFO:root:db insert (1194, 233249418, -245833598, 'zeroday343', 1522551300, 'Уже ненавидишь меня за эту идею?', '0.14276712166983338')
+INFO:root:insert into messages values (1194, 233249418, -245833598, 'zeroday343', 1522551300, 'Уже ненавидишь меня за эту идею?', '0.14276712166983338')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1195, 233249418, -245833598, 'zeroday343', 1522551307, 'я сам как в аду здесь', '0.8045808529874399')
+INFO:root:db insert (1195, 233249418, -245833598, 'zeroday343', 1522551307, 'я сам как в аду здесь', '0.8045808529874399')
+INFO:root:insert into messages values (1195, 233249418, -245833598, 'zeroday343', 1522551307, 'я сам как в аду здесь', '0.8045808529874399')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1196, 289074157, -245833598, 'mor1ins', 1522551309, 'да не', '0.16868031859868524')
+INFO:root:db insert (1196, 289074157, -245833598, 'mor1ins', 1522551309, 'да не', '0.16868031859868524')
+INFO:root:insert into messages values (1196, 289074157, -245833598, 'mor1ins', 1522551309, 'да не', '0.16868031859868524')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:root:db start with insert (1197, 289074157, -245833598, 'mor1ins', 1522551315, 'прикольно получилось', '0.25509730431827377')
+INFO:root:db insert (1197, 289074157, -245833598, 'mor1ins', 1522551315, 'прикольно получилось', '0.25509730431827377')
+INFO:root:insert into messages values (1197, 289074157, -245833598, 'mor1ins', 1522551315, 'прикольно получилось', '0.25509730431827377')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1198, 233249418, -245833598, 'zeroday343', 1522551321, 'спать хочу пиздец просто', '0.17728290547549586')
+INFO:root:db insert (1198, 233249418, -245833598, 'zeroday343', 1522551321, 'спать хочу пиздец просто', '0.17728290547549586')
+INFO:root:insert into messages values (1198, 233249418, -245833598, 'zeroday343', 1522551321, 'спать хочу пиздец просто', '0.17728290547549586')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1199, 289074157, -245833598, 'mor1ins', 1522551321, 'задача интересная', '0.8294891684774719')
+INFO:root:db insert (1199, 289074157, -245833598, 'mor1ins', 1522551321, 'задача интересная', '0.8294891684774719')
+INFO:root:insert into messages values (1199, 289074157, -245833598, 'mor1ins', 1522551321, 'задача интересная', '0.8294891684774719')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1200, 233249418, -245833598, 'zeroday343', 1522551325, 'голова болит', '0.2578662319844492')
+INFO:root:db insert (1200, 233249418, -245833598, 'zeroday343', 1522551325, 'голова болит', '0.2578662319844492')
+INFO:root:insert into messages values (1200, 233249418, -245833598, 'zeroday343', 1522551325, 'голова болит', '0.2578662319844492')
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with insert (1201, 289074157, -245833598, 'mor1ins', 1522551326, 'но нудноватая', '0.18935659686092526')
+INFO:root:db insert (1201, 289074157, -245833598, 'mor1ins', 1522551326, 'но нудноватая', '0.18935659686092526')
+INFO:root:insert into messages values (1201, 289074157, -245833598, 'mor1ins', 1522551326, 'но нудноватая', '0.18935659686092526')
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with total_tonal -245833598
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from /home/morins/PycharmProjects/context/venv/lib/python3.5/site-packages/pymorphy2_dicts/data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+INFO:root:db start with users_tonality {'invoice': None, 'text': '/users_tonality@WeirdDumBot', 'group_chat_created': None, 'voice': None, 'message_id': 1204, 'entities': [<telebot.types.MessageEntity object at 0x7f1417e44f60>], 'forward_from': None, 'migrate_to_chat_id': None, 'content_type': 'text', 'audio': None, 'from_user': {'username': 'zeroday343', 'is_bot': False, 'first_name': 'Andrew', 'language_code': None, 'last_name': 'Marchenko', 'id': 233249418}, 'document': None, 'delete_chat_photo': None, 'photo': None, 'new_chat_photo': None, 'media_group_id': None, 'chat': {'username': None, 'photo': None, 'description': None, 'first_name': None, 'can_set_sticker_set': None, 'sticker_set_name': None, 'type': 'group', 'all_members_are_administrators': True, 'last_name': None, 'title': 'test1', 'pinned_message': None, 'invite_link': None, 'id': -245833598}, 'new_chat_members': None, 'location': None, 'caption_entities': None, 'new_chat_title': None, 'successful_payment': None, 'channel_chat_created': None, 'sticker': None, 'forward_from_chat': None, 'supergroup_chat_created': None, 'reply_to_message': None, 'pinned_message': None, 'contact': None, 'caption': None, 'migrate_from_chat_id': None, 'new_chat_member': None, 'connected_website': None, 'left_chat_member': None, 'edit_date': None, 'date': 1522551369, 'author_signature': None, 'forward_date': None, 'venue': None, 'video': None, 'video_note': None}
+INFO:root:db start with insert (1202, 289074157, -245833598, 'mor1ins', 1522551330, 'и спать кайф', '0.20167260703912906')
+INFO:root:db insert (1202, 289074157, -245833598, 'mor1ins', 1522551330, 'и спать кайф', '0.20167260703912906')
+INFO:root:insert into messages values (1202, 289074157, -245833598, 'mor1ins', 1522551330, 'и спать кайф', '0.20167260703912906')
+INFO:root:db start with total_tonal -245833598
+INFO:root:db start with users_tonality {'invoice': None, 'text': '/users_tonality@VK_Stream_bot', 'group_chat_created': None, 'voice': None, 'message_id': 1211, 'entities': [<telebot.types.MessageEntity object at 0x7f1415e074e0>], 'forward_from': None, 'migrate_to_chat_id': None, 'content_type': 'text', 'audio': None, 'from_user': {'username': 'mor1ins', 'is_bot': False, 'first_name': 'Eduard', 'language_code': 'ru', 'last_name': 'Kuliev', 'id': 289074157}, 'document': None, 'delete_chat_photo': None, 'photo': None, 'new_chat_photo': None, 'media_group_id': None, 'chat': {'username': None, 'photo': None, 'description': None, 'first_name': None, 'can_set_sticker_set': None, 'sticker_set_name': None, 'type': 'group', 'all_members_are_administrators': True, 'last_name': None, 'title': 'test1', 'pinned_message': None, 'invite_link': None, 'id': -245833598}, 'new_chat_members': None, 'location': None, 'caption_entities': None, 'new_chat_title': None, 'successful_payment': None, 'channel_chat_created': None, 'sticker': None, 'forward_from_chat': None, 'supergroup_chat_created': None, 'reply_to_message': None, 'pinned_message': None, 'contact': None, 'caption': None, 'migrate_from_chat_id': None, 'new_chat_member': None, 'connected_website': None, 'left_chat_member': None, 'edit_date': None, 'date': 1522551492, 'author_signature': None, 'forward_date': None, 'venue': None, 'video': None, 'video_note': None}
+INFO:root:db start with user_tonality {'invoice': None, 'text': '/user_tonality@VK_Stream_bot', 'group_chat_created': None, 'voice': None, 'message_id': 1213, 'entities': [<telebot.types.MessageEntity object at 0x7f1415427da0>], 'forward_from': None, 'migrate_to_chat_id': None, 'content_type': 'text', 'audio': None, 'from_user': {'username': 'mor1ins', 'is_bot': False, 'first_name': 'Eduard', 'language_code': 'ru', 'last_name': 'Kuliev', 'id': 289074157}, 'document': None, 'delete_chat_photo': None, 'photo': None, 'new_chat_photo': None, 'media_group_id': None, 'chat': {'username': None, 'photo': None, 'description': None, 'first_name': None, 'can_set_sticker_set': None, 'sticker_set_name': None, 'type': 'group', 'all_members_are_administrators': True, 'last_name': None, 'title': 'test1', 'pinned_message': None, 'invite_link': None, 'id': -245833598}, 'new_chat_members': None, 'location': None, 'caption_entities': None, 'new_chat_title': None, 'successful_payment': None, 'channel_chat_created': None, 'sticker': None, 'forward_from_chat': None, 'supergroup_chat_created': None, 'reply_to_message': None, 'pinned_message': None, 'contact': None, 'caption': None, 'migrate_from_chat_id': None, 'new_chat_member': None, 'connected_website': None, 'left_chat_member': None, 'edit_date': None, 'date': 1522551504, 'author_signature': None, 'forward_date': None, 'venue': None, 'video': None, 'video_note': None}
+INFO:root:db start
+INFO:root:db start
+INFO:root:db start with user_tonality {'from_user': {'id': 289074157, 'last_name': 'Kuliev', 'first_name': 'Eduard', 'language_code': 'ru', 'username': 'mor1ins', 'is_bot': False}, 'reply_to_message': None, 'forward_date': None, 'new_chat_member': None, 'audio': None, 'successful_payment': None, 'video_note': None, 'document': None, 'text': '/user_tonality@VK_Stream_bot', 'sticker': None, 'voice': None, 'new_chat_title': None, 'edit_date': None, 'location': None, 'entities': [<telebot.types.MessageEntity object at 0x7fcb5dd5d550>], 'caption': None, 'caption_entities': None, 'pinned_message': None, 'date': 1522551578, 'message_id': 1217, 'content_type': 'text', 'delete_chat_photo': None, 'forward_from': None, 'video': None, 'new_chat_members': None, 'photo': None, 'contact': None, 'chat': {'first_name': None, 'type': 'group', 'username': None, 'id': -245833598, 'last_name': None, 'can_set_sticker_set': None, 'photo': None, 'sticker_set_name': None, 'invite_link': None, 'description': None, 'title': 'test1', 'pinned_message': None, 'all_members_are_administrators': True}, 'group_chat_created': None, 'new_chat_photo': None, 'venue': None, 'media_group_id': None, 'author_signature': None, 'connected_website': None, 'supergroup_chat_created': None, 'invoice': None, 'migrate_from_chat_id': None, 'channel_chat_created': None, 'left_chat_member': None, 'migrate_to_chat_id': None, 'forward_from_chat': None}
+INFO:root:db start
